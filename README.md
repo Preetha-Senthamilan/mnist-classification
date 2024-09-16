@@ -14,7 +14,8 @@ The MNIST dataset is a collection of handwritten digits. The task is to classify
 
 ## Neural Network Model
 
-Include the neural network model diagram.
+I![image](https://github.com/user-attachments/assets/580baab2-e48c-4b78-bd13-cdda955a1242)
+
 
 ## DESIGN STEPS
 
@@ -103,6 +104,7 @@ print("Preetha S, 212222230110")
 x_test_predictions = np.argmax(model.predict(X_test_scaled), axis=1)
 print("Preetha S, 212222230110")
 print(classification_report(y_test,x_test_predictions))
+print(confusion_matrix(y_test,x_test_predictions))
 
 img = image.load_img('mnist.jpg')
 type(img)
@@ -140,6 +142,10 @@ print(x_single_prediction)
 ### Classification Report
 
 ![Screenshot 2024-09-16 104642](https://github.com/user-attachments/assets/5cac1588-87fa-481b-b033-1f9c936c8458)
+
+### Confusion Matrix
+
+![Screenshot 2024-09-16 124903](https://github.com/user-attachments/assets/445cafa1-8b57-4d33-9923-d7249b4d6d16)
 
 
 ### New Sample Data Prediction
