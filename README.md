@@ -19,12 +19,34 @@ Include the neural network model diagram.
 ## DESIGN STEPS
 
 ### STEP 1:
-Write your own steps
+Import tensorflow and preprocessing libraries.
 
 ### STEP 2:
+Download and load the dataset
 
 ### STEP 3:
+Scale the dataset between it's min and max values
 
+### STEP 4:
+Using one hot encode, encode the categorical values
+
+### STEP 5:
+Split the data into train and test
+
+### STEP 6:
+Build the convolutional neural network model
+
+### STEP 7:
+Train the model with the training data
+
+### STEP 8:
+Plot the performance plot
+
+### STEP 9:
+Evaluate the model with the testing data
+
+### STEP 10:
+Fit the model and predict the single input
 
 ## PROGRAM
 
